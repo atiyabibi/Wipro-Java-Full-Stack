@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invisible Table Challenge</title>
+    <style>
+        table {
+            border-collapse: collapse; /* remove cell spacing */
+        }
+        td, th {
+            border: none; /* remove borders */
+            padding: 10px;
+        }
+        td a {
+            display: block;       /* make entire cell clickable */
+            text-decoration: none; /* remove underline */
+            color: black;          /* optional */
+        }
+        td a:hover {
+            background-color: #f0f0f0; /* optional hover effect */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Decimal</th>
+            <th>English</th>
+            <th>Spanish</th>
+        </tr>
+        <tr>
+            <td><a href="#">1</a></td>
+            <td><a href="#">one</a></td>
+            <td><a href="#">uno</a></td>
+        </tr>
+        <tr>
+            <td><a href="#">2</a></td>
+            <td><a href="#">two</a></td>
+            <td><a href="#">dos</a></td>
+        </tr>
+        <tr>
+            <td><a href="#">3</a></td>
+            <td><a href="#">three</a></td>
+            <td><a href="#">tres</a></td>
+        </tr>
+    </table>
+</body>
+</html>
